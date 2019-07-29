@@ -13,10 +13,10 @@
                   <div class="logo">
                     <a href="index.html"><p>Explore India</p></a></div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Activites</a></li>
-                        <li><a href="/#idmainmaphead">Popular</a></li>
+                        <li><a href="#overviewid">About</a></li>
+                        <li><a href="#infohead">Insight</a></li>
+                        <li><a href="#citiesid">Popular Tourist Cities</a></li>
+                        <li><a href="#mapid">Map</a></li>
                     </ul>
 
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <section class="blank-space"><img src="images/borderup.jpg" style="width:30%;text-align:center"></section>
-            <section class="overview">
+            <section class="overview" id="overviewid">
                 <h2>Overview</h2>
                 <p> Nicknamed as the ‘Land of Festivals’, Nagaland is a quaint state in the north-east part of the country and is one of the most-loved hill station tourist destinations in India. Nagaland is as much about scenic beauty as it is about carefully preserved history and tradition, and a visit to this mesmerising state will open up a vista of things you can see and do to make your holiday a memorable one. Inhabited by the tribes who are very protective towards their culture and identity, Nagaland is another name for beauty and bounty. Colourful costumes, spicy cuisines, pleasant weather, traditional villages, beautiful dance forms and lyrical songs are all that define the north-eastern state of Nagaland.
                     Nagaland has many places to offer to nature lovers; Japfu Peak, Dzukou Valley, Shilloi Lake are some of the places where people can find nature in its bounty. Like the other north-eastern states, Nagaland is also rich in culture with a variety of tribes. As all the tribes have their festivals and ceremonies, Nagaland is always ready to welcome a festival with great joy, and gaiety and food remain as much a part of the celebration as the dances and songs. Naga people eat almost anything that they can lay their hands on, be it dog, pork, snails or even an elephant and no part of the animal is wasted be it the skin or intestine. It shows how much they relish food and drinks. These jolly, colourful and crafty people are the soul of the state while nature attracts tourists from all over the world.
@@ -94,7 +94,7 @@
                     </div>
 
 
-                    <div class="citieshead">
+                    <div class="citieshead" id="citiesid">
                         <h2>CITIES YOU MUST visit</h2>
                     </div>
                     <div class="cities">
@@ -141,7 +141,7 @@
                                         </div>
                     
                                     </div>
-                                    <div class="maphead"><h2>MAP</h2></div>
+                                    <div class="maphead" id="mapid"><h2>MAP</h2></div>
                                     <div id="googleMap" style="width:100%;height:400px; background:cornflowerblue"></div>
 
                                     <footer>
@@ -164,7 +164,7 @@
                                     <script>
                                             function myMap() {
                                             var mapProp= {
-                                              center:new google.maps.LatLng(11,81),                 //change here
+                                              center:new google.maps.LatLng(26.4,94.4),                 //change here
                                               zoom:8,
                                             };
                                             var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);

@@ -13,10 +13,10 @@
                   <div class="logo">
                     <a href="index.html"><p>Explore India</p></a></div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Activites</a></li>
-                        <li><a href="/#idmainmaphead">Popular</a></li>
+                        <li><a href="#overviewid">About</a></li>
+                        <li><a href="#infohead">Insight</a></li>
+                        <li><a href="#citiesid">Popular Tourist Cities</a></li>
+                        <li><a href="#mapid">Map</a></li>
                     </ul>
 
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <section class="blank-space"><img src="images/borderup.jpg" style="width:30%;text-align:center"></section>
-            <section class="overview">
+            <section class="overview" id="overviewid"> 
                 <h2>Overview</h2>
                 <p> Sikkim, located in the north-eastern region of India, is a small state with a big heart. Travelling across this Himalayan state is particularly highlighted by the dramatic contouring of the scenery from thick woodlands to colourful meadows to few barren patches to the panoramic views of the snowcapped mountains. Occupied by warm-hearted people offering some of the best hospitality and boasting of magnificent treks, snow activities and scenic views, Sikkim is truly a destination people fall in love with!
                     The third highest peak in the world and jewel of the state, Kanchenjunga is visible from almost anywhere you stand. Characterised by freezing winters and cool summers, the state plays host to a large number of tourists all year round. Until 1975, when it was merged with India, Sikkim functioned as an autonomous kingdom with its own monarchy. Since then, it has become an integral part of India with a distinctive culture which has evolved into a multifaceted one. </p>       <!--      change here   -->
@@ -95,7 +95,7 @@
                     </div>
 
 
-                    <div class="citieshead">
+                    <div class="citieshead" id="citiesid">
                         <h2>CITIES YOU MUST visit</h2>
                     </div>
                     <div class="cities">
@@ -142,16 +142,21 @@
                                         </div>
                     
                                     </div>
-                                    <div class="maphead"><h2>MAP</h2></div>
+                                    <div class="maphead" id="mapid"><h2>MAP</h2></div>
                                     <div id="googleMap" style="width:100%;height:400px; background:cornflowerblue"></div>
 
                                     <footer>
                                             <div class="footer1">
                                                     
                                                 </div>
-                                                <div class="footer2">
+                                                <div class="footer2" style="letter-spacing: 5px;
+                                                font-weight: bold;
+                                                text-align: center;">
                                                     <p>
-                                                            slj sehif aehg aeihnf eiugh hpq uaeifho qoeiuh euogh q qoeurhg oruegh qeoufh ouefndsh eedhq uefhquoh euofh wouefh euohfhe eoufh eoug oqeurgob oeugheg eouge uegg
+                                                            This website has been created by Nikhil Rathoure and Sanjeev Kumar as part of the IPD training Programme of the Panjab University.
+                                                    </p><br>
+                                                    <p>
+                                                        This website is best viewed in chrome browser, with resolution 1024 x 768 or more.
                                                     </p>
                                                 </div>
                                     </footer>
@@ -160,8 +165,8 @@
                                     <script>
                                             function myMap() {
                                             var mapProp= {
-                                              center:new google.maps.LatLng(11,81),                 //change here
-                                              zoom:8,
+                                              center:new google.maps.LatLng(27,84.3),                 //change here
+                                              zoom:9,
                                             };
                                             var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
                                             }

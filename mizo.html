@@ -13,10 +13,10 @@
                   <div class="logo">
                     <a href="index.html"><p>Explore India</p></a></div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Activites</a></li>
-                        <li><a href="/#idmainmaphead">Popular</a></li>
+                        <li><a href="#overviewid">About</a></li>
+                        <li><a href="#infohead">Insight</a></li>
+                        <li><a href="#citiesid">Popular Tourist Cities</a></li>
+                        <li><a href="#mapid">Map</a></li>
                     </ul>
 
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <section class="blank-space"><img src="images/borderup.jpg" style="width:30%;text-align:center"></section>
-            <section class="overview">
+            <section class="overview" id="overviewid"> 
                 <h2>Overview</h2>
                 <p> Known as the 'Songbird of India', the northeastern state of Mizoram is one of the smallest states in India. The moderate climate of Mizoram, which is comfortable even in during summer makes it an attractive destination for all the tourists. The vast culture and grand festivals of the state have a unique, irresistible charm which can not be explained or read; it can only be felt once you are in the peaceful, serene land of Mizoram. The dense greenery and the 21 hill ranges that stretch throughout the territory of Mizoram is sure to take you surrounded to a different world. An Inner Line Pass is required to enter Mizoram. 
                     Mizoram offers you a calm, serene atmosphere with exciting outdoor activities in the beautiful lush green surroundings which keeps you close to the peaceful nature. With grand festivals, happy people wearing colourful traditional costumes, Mizoram welcomes you to explore its beauty and richness. Don't forget to stop by the tribal artisans and get amazed by their unique talent and pick a traditional shawl for yourself as a souvenir. For non-vegetarian people, the food of the state will be a real treat while vegetarians will have to choose carefully from the dishes. If you love to be in nature's arms, then Mizoram is the place for you!
@@ -85,7 +85,7 @@
                     </div>
 
 
-                    <div class="citieshead">
+                    <div class="citieshead" id="citiesid">
                         <h2>CITIES YOU MUST visit</h2>
                     </div>
                     <div class="cities">
@@ -131,16 +131,21 @@
                                         </div>
                     
                                     </div>
-                                    <div class="maphead"><h2>MAP</h2></div>
+                                    <div class="maphead" id="mapid"><h2>MAP</h2></div>
                                     <div id="googleMap" style="width:100%;height:400px; background:cornflowerblue"></div>
 
                                     <footer>
                                             <div class="footer1">
                                                     
                                                 </div>
-                                                <div class="footer2">
+                                                <div class="footer2" style="letter-spacing: 5px;
+                                                font-weight: bold;
+                                                text-align: center;">
                                                     <p>
-                                                            slj sehif aehg aeihnf eiugh hpq uaeifho qoeiuh euogh q qoeurhg oruegh qeoufh ouefndsh eedhq uefhquoh euofh wouefh euohfhe eoufh eoug oqeurgob oeugheg eouge uegg
+                                                            This website has been created by Nikhil Rathoure and Sanjeev Kumar as part of the IPD training Programme of the Panjab University.
+                                                    </p><br>
+                                                    <p>
+                                                        This website is best viewed in chrome browser, with resolution 1024 x 768 or more.
                                                     </p>
                                                 </div>
                                     </footer>
@@ -149,8 +154,8 @@
                                     <script>
                                             function myMap() {
                                             var mapProp= {
-                                              center:new google.maps.LatLng(11,81),                 //change here
-                                              zoom:8,
+                                              center:new google.maps.LatLng(24,93),                 //change here
+                                              zoom:9,
                                             };
                                             var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
                                             }

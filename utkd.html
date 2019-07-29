@@ -13,10 +13,10 @@
                   <div class="logo">
                     <a href="index.html"><p>Explore India</p></a></div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Activites</a></li>
-                        <li><a href="/#idmainmaphead">Popular</a></li>
+                        <li><a href="#overviewid">About</a></li>
+                        <li><a href="#infohead">Insight</a></li>
+                        <li><a href="#citiesid">Popular Tourist Cities</a></li>
+                        <li><a href="#mapid">Map</a></li>
                     </ul>
 
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <section class="blank-space"><img src="images/borderup.jpg" style="width:30%;text-align:center"></section>
-            <section class="overview">
+            <section class="overview" id="overviewid"> 
                 <h2>Overview</h2>
                 <p> Famously known as Devbhumi, or the Land of the Gods, Uttarakhand is a land of untouched natural beauty and sublime spirituality. Carved out from Uttar Pradesh, the state, formerly known as Uttaranchal, is a place that not only boasts of a scintillating view of the Himalayas but also exhibits a cultural ethos which speaks of a simplistic and harmonic coexistence with nature. With oaks, birches, silver firs and rhododendrons adorning the steep mountain slopes, Uttarakhand offers you a glimpse into an untainted and idyllic world.
                     Uttarakhand is a very popular pilgrimage site, as it is the originating spot of the Ganga and the Yamuna, two of the most sacred rivers for Hindus. Uttarakhand is home to the Char Dhams, the four most pious sites of pilgrimage revered by the Hindus – Gangotri, Yamunotri, Kedarnath, and Badrinath. Thousands of tourists visit Uttarakhand annually to pay homage to the Char Dhams.
@@ -86,7 +86,7 @@
                     </div>
 
 
-                    <div class="citieshead">
+                    <div class="citieshead" id="citiesid">
                         <h2>CITIES YOU MUST visit</h2>
                     </div>
                     <div class="cities">
@@ -133,16 +133,21 @@
                                         </div>
                     
                                     </div>
-                                    <div class="maphead"><h2>MAP</h2></div>
+                                    <div class="maphead" id="mapid"><h2>MAP</h2></div>
                                     <div id="googleMap" style="width:100%;height:400px; background:cornflowerblue"></div>
 
                                     <footer>
                                             <div class="footer1">
                                                     
                                                 </div>
-                                                <div class="footer2">
+                                                <div class="footer2" style="letter-spacing: 5px;
+                                                font-weight: bold;
+                                                text-align: center;">
                                                     <p>
-                                                            slj sehif aehg aeihnf eiugh hpq uaeifho qoeiuh euogh q qoeurhg oruegh qeoufh ouefndsh eedhq uefhquoh euofh wouefh euohfhe eoufh eoug oqeurgob oeugheg eouge uegg
+                                                            This website has been created by Nikhil Rathoure and Sanjeev Kumar as part of the IPD training Programme of the Panjab University.
+                                                    </p><br>
+                                                    <p>
+                                                        This website is best viewed in chrome browser, with resolution 1024 x 768 or more.
                                                     </p>
                                                 </div>
                                     </footer>
@@ -151,7 +156,7 @@
                                     <script>
                                             function myMap() {
                                             var mapProp= {
-                                              center:new google.maps.LatLng(11,81),                 //change here
+                                              center:new google.maps.LatLng(30,78),                 //change here
                                               zoom:8,
                                             };
                                             var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);

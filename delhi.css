@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Yesteryear&display=swap');
-/* font-family: 'Dancing Script', cursive;
-font-family: 'Yesteryear', cursive; */
 *{
     margin:0px;
     padding:0px;
@@ -120,10 +118,6 @@ header .change{
 width:100%;
 height:100vh;
 overflow:hidden;
-/* box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin:20px 0px 20px 0px; */
-
 }
 .firstdiv .firstddivimg
 {
@@ -141,8 +135,6 @@ overflow:hidden;
     height:40%;
     font-family:'Roboto', sans-serif;
   font-weight:300;
-    /* box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
 }
 .firstdiv .firstdivcontent h2{
@@ -152,19 +144,8 @@ overflow:hidden;
     font-size:80px;
     letter-spacing: 10px;
     text-shadow: 2px 5px 5px black;
-    /* box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
 }
-
-   
-
-
-
-
-
-
-
   .overview {
     position: relative;
     background-color: rgb(70, 147, 248);
@@ -219,10 +200,6 @@ overflow:hidden;
     font-size: 18px;
   }
   
-
-
-
-
 #pvhead{
   text-transform: uppercase;
     letter-spacing: 15px;
@@ -239,7 +216,6 @@ overflow:hidden;
     position: relative;
 width:100%;
 height:100vh;
-/* padding-top:50px; */
 box-sizing: border-box;
     overflow:hidden;
 }
@@ -358,8 +334,6 @@ box-sizing: border-box;
   margin:20% 0px 5% 0;
   font-size:60px;
 }
-
-
 .pplcs .pplcsimgl3
 {
     position:absolute;
@@ -389,8 +363,6 @@ box-sizing: border-box;
   margin:20% 0px 5% 0;
   font-size:60px;
 }
-
-
 .pplcs .pplcsimgr3
 {
     position:absolute;
@@ -419,8 +391,6 @@ box-sizing: border-box;
   margin:20% 0px 5% 0;
   font-size:60px;
 }
-
-
 .pplcs .pplcsimgl4
 {
     position:absolute;
@@ -450,16 +420,6 @@ box-sizing: border-box;
   margin:20% 0px 5% 0;
   font-size:60px;
 }
-
-
-
-
-
-
-
-
-
-
 .htrhead{
   text-transform: uppercase;
     letter-spacing: 10px;
@@ -568,9 +528,6 @@ text-align: center;
   .simg3 img{
     transform:translate(20px,0px) skewX(20deg);
   }
-
-
-
   .todo{
     height:1000px;
     width:100%;
